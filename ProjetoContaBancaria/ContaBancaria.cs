@@ -17,7 +17,7 @@ namespace ProjetoContaBancaria
 
         public ContaBancaria(int numeroDaConta, string titularDaConta, double depositoInicial) : this(numeroDaConta, titularDaConta)
         {
-            SaldoDaConta = depositoInicial;
+            Deposito(depositoInicial);
         }
         
         public void Deposito(double valor)
